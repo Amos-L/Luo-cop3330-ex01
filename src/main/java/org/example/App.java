@@ -9,10 +9,10 @@ import java.util.Scanner;
 public class App {
     public static void main(String[] args) {
 
-        Scanner input = new Scanner(System.in);
-        System.out.println("What is your name?");
-        String name = input.nextLine();
-        String x = "Hello, " + name + ", nice to meet you!";
+        Scanner input = new Scanner(System.in); //Asking for user input
+        System.out.println("What is your name?"); //Printing out question
+        String name = input.nextLine(); //Storing user input to string "name"
+        String x = "Hello, " + name + ", nice to meet you!"; //Printing
         System.out.println(x);
     }
 }
